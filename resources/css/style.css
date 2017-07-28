@@ -8,11 +8,49 @@ h1{
   font-weight: bold;
   color: white;
 }
+h2{
+  font-weight: bold;
+  font-size: 32px;
+}
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+p{
+  font-size: 14px;
+}
 
-.nav{
+.hero{
+  background-image: URL("../images/the-flatiron-building.png");
+  width: auto;
+  height: auto;
+  background-color: black;
+}
+.nav a{
   font-size: 18px;
   color: white;
 }
-#header{
-  background-image: image(resources\images\the-flatiron-building.png);
+
+.nav{
+  list-style: none;
+}
+.white{
+  color: white;
+}
+.footer-nav{
+  background-color: dimgray;
+  list-style: none;
+  color: white;
+}
+.footer-nav p{
+  font-size: 11px;
+}
+.footer-nav a{
+  color: white;
+}
+ul{
+  display: inline;
+  width: 60px;
+  border: 1px;
+  border-color: red;
 }
